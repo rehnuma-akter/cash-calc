@@ -1,0 +1,43 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    width: 90%;
+}
+
+main h1{
+    line-height: 120px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+img{
+    margin-bottom: 5%;
+    height: 600px;
+}
+/* Calculation section's style */
+.budget-calculation{
+    padding-top: 30px;
+    text-align: center;
+    background-color: rgb(224, 238, 255);
+    height: 600px;
+    border: 1px solid black;
+}
+
+/* .income{
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+}
+.expenses{
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+}
+.saving{
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+} */
+
