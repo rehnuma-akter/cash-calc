@@ -41,5 +41,12 @@ calculateBtn.addEventListener("click", function (event) {
         expenseField.innerText = inputAmount + availableExpense2;
     }
 });
+//income field section 
+calculateBtn.addEventListener('click', function(){
+    let incomeBalance = parseFloat(balanceField.innerText);
+    console.log(incomeBalance);
+})
+
+
 
 //----------I AM REALLY NOT ABLE TO DO ANYTHING FROM HERE, I DON'T KNOW WHAT TO DO----------//
