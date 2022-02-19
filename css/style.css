@@ -25,6 +25,10 @@ img{
     height: 600px;
     border: 1px solid black;
 }
+input{
+    text-align: center;
+    padding: 5px;
+}
 /* both save and calculate buttons style */
 
 #calculate-btn, #save-btn{
@@ -32,6 +36,6 @@ img{
     color: white;
     font-size: 18px;
     width: 130px;
-    margin: 18px;
+    margin: 8px;
     padding: 10px;
 }
