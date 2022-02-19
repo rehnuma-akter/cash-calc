@@ -10,8 +10,8 @@ function getInputValue(boxID){
     let inputBox = document.getElementById(boxID)
     let inputAmount = parseFloat(inputBox.value);
     if (isNaN(inputAmount) || inputAmount < 0) {
-    inputBox.value = "";
-    return alert("Please type valid amount in number format");
+        inputBox.value = "";
+        return alert("Please type valid amount in number format");
     }
     inputBox.value = '';
     return inputAmount;
@@ -26,6 +26,20 @@ calculateBtn.addEventListener('click', function(event){
     }
 })
 
+calculateBtn.addEventListener("click", function (event) {
+    let availableExpense1 = parseFloat(expenseField.innerText);
+    let inputAmount = getInputValue('rent-box');
+    if (inputAmount > 0) {
+        expenseField.innerText = inputAmount + availableExpense1;
+    }
+});
 
+calculateBtn.addEventListener("click", function (event) {
+    let availableExpense2 = parseFloat(expenseField.innerText);
+    let inputAmount = getInputValue("clothes-box");
+    if (inputAmount > 0) {
+        expenseField.innerText = inputAmount + availableExpense2;
+    }
+});
 
-
+//----------I AM REALLY NOT ABLE TO DO ANYTHING FROM HERE, I DON'T KNOW WHAT TO DO----------//
